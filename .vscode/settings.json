@@ -12,6 +12,9 @@
         "numeric": "cpp",
         "algorithm": "cpp",
         "cstdlib": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
     }
 }

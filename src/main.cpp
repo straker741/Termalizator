@@ -13,8 +13,8 @@
 #define RELAY_PIN     0
 
 #define HOST "termalizator"
-#define SSID "ssid1234"
-#define PASS "pass1234"
+#define SSID "wlan"
+#define PASS "jijxodan137"
 #define PORT 80
 
 void handleApiConfig(void);
@@ -206,9 +206,9 @@ void handleApiData(void) {
     char data[256];
     snprintf(data, 256,
     "{\
-        \"power\":%s,\
-        \"target\":%.3f,\
-        \"temp\":%.3f,\
+        \"power\":\"%s\",\
+        \"target\":\"%.3f\",\
+        \"temp\":\"%.3f\",\
         \"time\":%d,\
         \"mode\":%d\
     }",
