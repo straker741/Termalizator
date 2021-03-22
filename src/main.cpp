@@ -13,8 +13,8 @@
 #define RELAY_PIN     0
 
 #define HOST "termalizator"
-#define SSID "wlan"
-#define PASS "jijxodan137"
+#define SSID "ssid1234"
+#define PASS "pass1234"
 #define PORT 80
 
 void handleApiConfig(void);
